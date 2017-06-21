@@ -34,4 +34,3 @@ predictX = [100] * size
 print('predictX',predictX)
 print('predict result:',clf.predict(predictX))
 
-print(metrics.classification_report(y_val, predicted))
